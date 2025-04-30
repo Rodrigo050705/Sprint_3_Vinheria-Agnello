@@ -1,0 +1,56 @@
+@model EsbocoEstoque.Models.VinhoModel
+<h1>Vinho</h1>
+<h4>Editar</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <!-- IMPORTANTE elemento form -->
+        <form asp-action="Edit" asp-controller="Vinho">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <!-- IMPORTANTE propriedade ClienteId oculto -->
+            <input type="hidden" asp-for="VinhoId" />
+            <div class="form-group">
+                <label asp-for="NomeVinho" class="control-label"></label>
+                <input asp-for="NomeVinho" class="form-control" />
+                <span asp-validation-for="NomeVinho" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PaisOrigem" class="control-label"></label>
+                <input asp-for="PaisOrigem" class="form-control" />
+                <span asp-validation-for="PaisOrigem" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DataProduzido" class="control-label"></label>
+                <input asp-for="DataProduzido" class="form-control" />
+                <span asp-validation-for="DataProduzido" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Preco" class="control-label"></label>
+                <input asp-for="Preco" class="form-control" />
+                <span asp-validation-for="Preco" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Quantidade" class="control-label"></label>
+                <input asp-for="Quantidade" class="form-control" />
+                <span asp-validation-for="Quantidade" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TipoVinho" class="control-label"></label>
+                <input asp-for="TipoVinho" class="form-control" />
+                <span asp-validation-for="TipoVinho" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DescricaoVinho" class="control-label"></label>
+                <input asp-for="DescricaoVinho" class="form-control" />
+                <span asp-validation-for="DescricaoVinho" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Gravar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<div>
+    <a asp-action="Principal">Voltar</a>
+</div>

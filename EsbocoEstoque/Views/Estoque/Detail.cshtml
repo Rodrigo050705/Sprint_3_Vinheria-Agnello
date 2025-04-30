@@ -1,0 +1,60 @@
+@model EsbocoEstoque.Models.VinhoModel
+<h1>Vinho</h1>
+<h4>Detalhe</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <div class="form-group">
+            <label asp-for="NomeVinho" class="control-label fw-bold"></label>
+            <div class="col-md-10">
+                <span>@Model.NomeVinho</span>
+            </div>
+        </div>
+        <br />
+        <div class="form-group">
+            <label asp-for="PaisOrigem" class="control-label fw-bold"></label>
+            <div class="col-md-10">
+                <span>@Model.PaisOrigem</span>
+            </div>
+        </div>
+        <br />
+        <div class="form-group">
+            <label asp-for="DataProduzido" class="control-label fw-bold"></label>
+            <div class="col-md-10">
+                <span>@Model.DataProduzido</span>
+            </div>
+        </div>
+        <br />
+        <div class="form-group">
+            <label asp-for="Preco" class="control-label fw-bold"></label>
+            <div class="col-md-10">
+                <span>@Model.Preco</span>
+            </div>
+        </div>
+        <br />
+        <div class="form-group">
+            <label asp-for="Quantidade" class="control-label fw-bold"></label>
+            <div class="col-md-10">
+                <span>@Model.Quantidade</span>
+            </div>
+        </div>
+        <br />
+        <div class="form-group">
+            <label asp-for="TipoVinho" class="control-label fw-bold"></label>
+            <div class="col-md-10">
+                <span>@Model.TipoVinho</span>
+            </div>
+        </div>
+        <br />
+        <div class="form-group">
+            <label asp-for="DescricaoVinho" class="control-label fw-bold"></label>
+            <div class="col-md-10">
+                <span>@Model.DescricaoVinho</span>
+            </div>
+        </div>
+        <br />
+    </div>
+</div>
+<div>
+    <a asp-action="Principal">Voltar</a>
+</div>
