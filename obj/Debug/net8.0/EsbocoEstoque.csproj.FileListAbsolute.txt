@@ -1,7 +1,0 @@
-C:\Users\rfcsp\OneDrive\Documentos\Curso FIAP\3 ano\fase 3\vinheria_fase_3\EsbocoEstoque\obj\Debug\net8.0\EsbocoEstoque.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\rfcsp\OneDrive\Documentos\Curso FIAP\3 ano\fase 3\vinheria_fase_3\EsbocoEstoque\obj\Debug\net8.0\EsbocoEstoque.AssemblyInfoInputs.cache
-C:\Users\rfcsp\OneDrive\Documentos\Curso FIAP\3 ano\fase 3\vinheria_fase_3\EsbocoEstoque\obj\Debug\net8.0\EsbocoEstoque.AssemblyInfo.cs
-C:\Users\rfcsp\OneDrive\Documentos\Curso FIAP\3 ano\fase 3\vinheria_fase_3\EsbocoEstoque\obj\Debug\net8.0\EsbocoEstoque.csproj.CoreCompileInputs.cache
-C:\Users\rfcsp\OneDrive\Documentos\Curso FIAP\3 ano\fase 3\vinheria_fase_3\EsbocoEstoque\obj\Debug\net8.0\EsbocoEstoque.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\rfcsp\OneDrive\Documentos\Curso FIAP\3 ano\fase 3\vinheria_fase_3\EsbocoEstoque\obj\Debug\net8.0\EsbocoEstoque.RazorAssemblyInfo.cache
-C:\Users\rfcsp\OneDrive\Documentos\Curso FIAP\3 ano\fase 3\vinheria_fase_3\EsbocoEstoque\obj\Debug\net8.0\EsbocoEstoque.RazorAssemblyInfo.cs
