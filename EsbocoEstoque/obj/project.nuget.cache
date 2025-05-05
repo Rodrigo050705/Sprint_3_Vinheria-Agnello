@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jiSX5uaXlVQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rfcsp\\OneDrive\\Documentos\\Curso FIAP\\3 ano\\fase 3\\vinheria_fase_3\\EsbocoEstoque\\EsbocoEstoque.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rfcsp\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\microsoft.visualstudio.azure.containers.tools.targets.1.21.0.nupkg.sha512"
+  ],
+  "logs": []
+}
